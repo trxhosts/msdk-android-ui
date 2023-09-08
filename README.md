@@ -10,9 +10,8 @@ It can be embedded in mobile applications developed for Android **API 21** or la
 
 ## Quickstart
 **How to use example project**
-1. Open `integration-example` module;
-2. Open `build.gradle` and pass values to `projectId` and `projectSecretKey`;
-3. Run sync gradle task.
+1. Open `build.gradle` and pass values to `projectId` and `projectSecretKey`;
+2. Run sync gradle task.
 
 **Importing libraries in your project**
 
