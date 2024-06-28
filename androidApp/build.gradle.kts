@@ -7,14 +7,17 @@ plugins {
 
 android {
 
-    compileSdk = 33
+    compileSdk = 34
+
+    namespace = "com.trxhost.msdk.ui.integration.exampl"
+    android.buildFeatures.buildConfig = true
 
     defaultConfig {
 
         applicationId = "com.trxhost.msdk.ui.integration.example"
         namespace = "com.trxhost.msdk.ui.integration.example"
 
-        minSdk = 21
+        minSdk = 26
 
         versionName = "1.0.0"
         versionCode = 1
@@ -28,23 +31,28 @@ android {
         buildConfigField(
             "int",
             "PROJECT_ID",
-            "398915"
+            "123"
         )
 
         buildConfigField(
             "String",
             "GPAY_MERCHANT_ID",
-            "\"BCR2DN6TZ75OBLTH\""
+            "\"\""
         )
     }
 
     buildFeatures {
         compose = true
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
-    implementation("com.trxhost:msdk-ui:2.0.0")
+    implementation("com.trxhost:msdk-ui:2.1.3")
 
     implementation(compose.ui)
     implementation(compose.material)

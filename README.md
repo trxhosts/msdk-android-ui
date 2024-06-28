@@ -246,5 +246,3 @@ To integrate the web service with the [TrxHosts](https://trxhost.com/)  payment 
     2.  For switching to the production mode, change the value of the test project identifier to the value of the production project identifier received from  TrxHosts.
 
 If you have any questions about working with SDK UI for Android, contact the  TrxHosts  technical support specialists ([support@trxhost.com](mailto:support@trxhost.com)).
-
-For more detailed information see [docs](https://developers.trxhost.com/en/en_sdk_ui_and_core_android.html#en_sdk_ui_and_core_android).
